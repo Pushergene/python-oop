@@ -21,8 +21,13 @@ class Rujbin:
       print("Rujbinn ist in Liste")
     else:
       print("Rujbinn ist nicht in Liste")
+      
+  def loop(self):
+    for self.x in self.Liste:
+      print(self.x)
 Rb = Rujbin(5,10)
 Rb.funk()
 Rb.falls()
 Rb.Funktion()
 Rb.WenninListe()
+Rb.loop()
