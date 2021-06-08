@@ -25,9 +25,16 @@ class Rujbin:
   def loop(self):
     for self.x in self.Liste:
       print(self.x)
+  def iterator(self):
+    self.String = "Lol"
+    self.meinIt = iter(self.String)
+    print(next(self.meinIt))
+    print(next(self.meinIt))
+    print(next(self.meinIt))
 Rb = Rujbin(5,10)
 Rb.funk()
 Rb.falls()
 Rb.Funktion()
 Rb.WenninListe()
 Rb.loop()
+Rb.iterator()
